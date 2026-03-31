@@ -17,13 +17,18 @@ The aim of this project is to conduct a systematic study of Mozilla Firefox as a
 
 ## SOFTWARE AND TOOLS USED
 Linux environment with Bash shell
+
 Mozilla Firefox (open-source browser)
+
 Standard Linux commands:
 hostname, whoami, uname, date, uptime, cat, grep, awk, cut, du, df, ls, tail, read
+
 Package management tools:
 dpkg, rpm
+
 ## THEORY
 Part A — Background and Philosophy
+
  # A1. Problem Addressed by Firefox
 
 Firefox was developed during a time when web browsing was dominated by a single ecosystem, limiting innovation and reducing adherence to open web standards. This created challenges for developers in terms of compatibility and restricted user awareness regarding privacy and browser behavior.
@@ -79,6 +84,7 @@ Updates are provided through both Mozilla and system repositories.
 Firefox is built on various open-source components and contributes significantly to web standards and privacy features. It serves as a client platform for accessing applications built on open-source infrastructures.
 
 ## Part D — Open Source vs Proprietary
+
 Aspect	Open Source (Firefox)	Proprietary Software
 Cost	Free	Usually free but controlled
 Transparency	High	Limited
@@ -90,10 +96,15 @@ Conclusion: Firefox is ideal where openness and control are important.
 
 ## SCRIPT SUMMARY
 1.Script 1: Displays system identity and environment details
+
 2.Script 2: Checks Firefox installation and license
+
 3.Script 3: Audits directory permissions and disk usage
+
 4.Script 4: Analyzes system logs
+
 5.Script 5: Generates an open-source manifesto
+
 
 ## COMMANDS USED
 hostname → System name
@@ -277,10 +288,15 @@ I will build open source app.
 
 ## OBSERVATION
 Script 1 identifies system details
+
 Script 2 verifies package installation
+
 Script 3 shows permission structure
+
 Script 4 analyzes logs
+
 Script 5 generates output based on input
+
 
 ## RESULT
 
