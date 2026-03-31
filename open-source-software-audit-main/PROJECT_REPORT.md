@@ -108,23 +108,36 @@ Conclusion: Firefox is ideal where openness and control are important.
 
 ## COMMANDS USED
 hostname → System name
+
 whoami → Current user
+
 uname → Kernel info
+
 grep, awk, cut → Data processing
+
 du, df → Disk usage
+
 ls -ld → Permissions
+
 tail → Log output
+
 read → Input
+
 
 ## ALGORITHM
 
 Select Firefox
 
 Implement Script 1
+
 Implement Script 2
+
 Implement Script 3
+
 Implement Script 4
+
 Implement Script 5
+
 Execute and verify outputs
 PROGRAM
 Script 1 (script1.sh)
