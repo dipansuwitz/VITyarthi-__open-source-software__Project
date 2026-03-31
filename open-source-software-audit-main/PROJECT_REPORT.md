@@ -1,10 +1,14 @@
 ## OPEN SOURCE SOFTWARE ANALYSIS REPORT
 
 ## Student Details
-Name: Dipansu Bhakat
-Registration Number: 24BAI10759
+Name: Dipansu Bhakat   
+
+Registration Number: 24BAI10759     
+
 Course: Open Source Software (NGMC)
+
 Chosen Software: Mozilla Firefox
+
 Date: 31 March 2026
 
 ## AIM
@@ -102,7 +106,9 @@ tail → Log output
 read → Input
 
 ## ALGORITHM
+
 Select Firefox
+
 Implement Script 1
 Implement Script 2
 Implement Script 3
@@ -203,17 +209,17 @@ done
 ## Script 4 (script4.sh)
 #!/bin/bash
 
-LOGFILE="/var/log/syslog"
-KEYWORD="error"
-COUNT=0
+  LOGFILE="/var/log/syslog"
+  KEYWORD="error"
+  COUNT=0
 
-while read LINE
-do
+   while read LINE
+    do
     echo "$LINE" | grep -i "$KEYWORD" >/dev/null
     if [ $? -eq 0 ]; then
         COUNT=$((COUNT+1))
-    fi
-done < "$LOGFILE"
+      fi
+     done < "$LOGFILE"
 
 echo "Total matches found: $COUNT"
 echo "Last 5 matching lines:"
@@ -239,9 +245,9 @@ Hostname: ubuntu
 Kernel Version: 5.15.0
 
 Script 2
-=========================================
+
        FOSS PACKAGE INSPECTOR
-=========================================
+
 
 firefox is installed
 ii  firefox   123.0+build1   amd64   Mozilla Firefox web browser
@@ -258,6 +264,7 @@ Script 4
 
 Total matches found: 7
 Last 5 matching lines:
+
 Script 5
 Tool: firefox
 Freedom word: sharing
